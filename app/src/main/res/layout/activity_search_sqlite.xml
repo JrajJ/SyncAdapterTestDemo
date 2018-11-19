@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_sqlite"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+android:background="#ff5900"
+    tools:context=".SearchSQLiteActivity">
+
+    <EditText
+        android:layout_margin="2sp"
+        android:background="#ffffff"
+        android:lines="1"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+
+        android:id="@+id/edittext1"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:hint="@string/search_voter_name"
+        >
+    </EditText>
+    <LinearLayout
+        android:weightSum="0"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <EditText
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+
+
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="1dp"
+        android:maxLines="1"
+        android:textSize="13sp"
+        android:id="@+id/edittext2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:hint="@string/search_voter_address"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+
+
+        android:textSize="13sp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="2dp"
+        android:lines="1"
+        android:id="@+id/edittext3"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:hint="@string/search_voter_card_no"
+        >
+    </EditText>
+    </LinearLayout>
+    <ListView
+        android:layout_margin="2dp"
+        android:background="#ffffff"
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/edittext1"/>
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मतदार अॅप</string>
+    <string name="main">मुख्य</string>
+    <string name="marathi">ENGLISH</string>
+    <string name="reports">अहवाल</string>
+    <string name="survey">सर्वेक्षण</string>
+    <string name="graphs">ग्राफ</string>
+    <string name="settings">सेटिंग्ज</string>
+    <string name="registration">नोंदणी</string>
+    <string name="search">शोध</string>
+    <string name="about_us">आमच्या बद्दल</string>
+    <string name="voter_name">मतदार नाव</string>
+    <string name="card_no">कार्ड क्रमांक</string>
+    <string name="prabhag">प्रभाग</string>
+    <string name="search_voter_name">मतदाराचे नाव शोधा</string>
+    <string name="search_voter_address">मतदार पत्ता शोधा</string>
+    <string name="search_voter_card_no">मतदार कार्ड क्रमांक शोधा</string>
+
+    <string-array name="List">
+        <item name="alphabeticallist"   >वर्णक्रमानुसार यादी</item>
+        <item name="agewiselist"        >वयोमानानुसार यादी</item>
+        <item name="villagewiselist"    >गाव्यांची यादी</item>
+        <item name="partwiselist"       >भागानुसार यादी</item>
+        <item name="addresswiselist"    >पत्त्यानुसार यादी</item>
+        <item name="polingstationwiselist">पोलिंग स्टेशन निहाय यादी</item>
+
+    </string-array>
+
+    <string-array name="SettingsList">
+        <item name="smssettings"   >एसएमएस सेटिंग्ज</item>
+        <item name="savemobno"        >मोबाइल नंबर जतन करा</item>
+        <item name="syncronize"    >सिंक करा</item>
+
+
+    </string-array>
+</resources>

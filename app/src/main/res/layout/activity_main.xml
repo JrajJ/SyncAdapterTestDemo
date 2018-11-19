@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBlack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+
+        android:id="@+id/main_b"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_margin="2dp"
+        android:text="@string/main"
+        android:scaleType="fitCenter"
+        android:background="@drawable/round_button"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:onClick="mainB"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/colorWhite"
+
+        />
+
+    <Button
+
+        android:id="@+id/marathi"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/main_b"
+        android:layout_alignLeft="@id/main_b"
+        android:gravity="center"
+        android:layout_marginRight="15dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/round_button"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:onClick="changeLangB"
+        android:text="@string/marathi"
+        android:padding="7dp"
+        android:textAlignment="center"
+
+        />
+
+    <Button
+
+        android:id="@+id/reports"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@id/marathi"
+        android:layout_toRightOf="@id/marathi"
+        android:gravity="center"
+        android:layout_margin="5dp"
+
+        android:scaleType="fitCenter"
+        android:background="@drawable/round_button"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="reportsB"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/reports"
+        />
+    <Button
+
+        android:id="@+id/survey"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@id/main_b"
+        android:layout_toLeftOf="@id/main_b"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/survey"
+        android:layout_margin="5dp"
+        android:background="@drawable/round_button"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="surveyB"
+
+        />
+    <Button
+
+        android:id="@+id/graphs"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/survey"
+        android:layout_toLeftOf="@id/main_b"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+
+        android:scaleType="fitCenter"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/graphs"
+        android:background="@drawable/round_button"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="graphsB"
+
+        />
+    <Button
+
+        android:id="@+id/settings"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/main_b"
+        android:layout_alignLeft="@id/main_b"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/settings"
+        android:layout_marginRight="15dp"
+
+        android:background="@drawable/round_button"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="settingsB"
+
+        />
+    <Button
+
+        android:id="@+id/registration"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@id/settings"
+        android:layout_toRightOf="@id/settings"
+        android:gravity="center"
+        android:layout_margin="5dp"
+
+        android:scaleType="fitCenter"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/registration"
+        android:background="@drawable/round_button"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="registrationB"
+        />
+    <Button
+
+        android:id="@+id/search"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@id/main_b"
+        android:layout_toRightOf="@id/main_b"
+        android:gravity="center"
+        android:layout_margin="5dp"
+
+        android:scaleType="fitCenter"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/search"
+        android:background="@drawable/round_button"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="searchB"
+
+        />
+    <Button
+
+        android:id="@+id/about_us"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/search"
+        android:layout_toRightOf="@id/main_b"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:scaleType="fitCenter"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/about_us"
+        android:background="@drawable/round_button"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="aboutusB"
+
+        />
+
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    >
+
+<LinearLayout
+    android:layout_width="70dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_margin="2dp"
+        android:id="@+id/tv_pid_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pid"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:paddingLeft="5dp"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:layout_margin="2dp"
+        android:paddingLeft="5dp"
+
+        android:id="@+id/tv_sid_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sid"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/syncc"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_margin="2dp"
+        android:paddingLeft="5dp"
+
+        android:id="@+id/tv_pname_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pname"
+        android:lines="1"
+
+        android:textSize="18dp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_margin="2dp"
+        android:paddingLeft="5dp"
+
+        android:id="@+id/tv_cat_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cat"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:visibility="gone"
+        />
+    <TextView
+        android:layout_margin="2dp"
+        android:paddingLeft="5dp"
+
+        android:id="@+id/tv_dscr_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dscr"
+        android:lines="1"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_margin="2dp"
+        android:paddingLeft="5dp"
+
+        android:id="@+id/tv_mrp_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mrp"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_margin="2dp"
+        android:paddingLeft="5dp"
+
+        android:id="@+id/tv_offerpr_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offerpr"
+        android:textSize="12dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_margin="2dp"
+        android:paddingLeft="5dp"
+        android:id="@+id/tv_views_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Views"
+        android:visibility="gone"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+
+
+</LinearLayout>
+
+</LinearLayout>

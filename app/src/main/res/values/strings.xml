@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Voter App</string>
+    <string name="main">MAIN</string>
+    <string name="marathi">मराठी</string>
+    <string name="reports">REPORTS</string>
+    <string name="survey">SURVEY</string>
+    <string name="graphs">GRAPHS</string>
+    <string name="settings">SETTINGS</string>
+    <string name="registration">REGISTRATION</string>
+    <string name="search">SEARCH</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="voter_name">Voter Name</string>
+    <string name="card_no">Card No</string>
+    <string name="prabhag">Prabhag</string>
+    <string name="search_voter_name">Search Voter Name</string>
+    <string name="search_voter_address">Search Voter Address</string>
+    <string name="search_voter_card_no">Search Voter Card No</string>
+
+    <string-array name="List">
+        <item name="alphabeticallist"   >Alphabetical List</item>
+        <item name="agewiselist"        >Agewise List</item>
+        <item name="villagewiselist"    >Villagewise List</item>
+        <item name="partwiselist"       >Partwise List</item>
+        <item name="addresswiselist"    >Addresswise List</item>
+        <item name="polingstationwiselist">Poling Stationwise List</item>
+
+    </string-array>
+
+    <string-array name="SettingsList">
+        <item name="smssettings"   >SMS Settings</item>
+        <item name="savemobno"        >Save Mobile Numbers</item>
+        <item name="syncronize"    >Synchronize</item>
+
+
+    </string-array>
+</resources>
